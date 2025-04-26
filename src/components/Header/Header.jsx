@@ -1,11 +1,15 @@
+'use client'
+import Logo from "./components/Logo/Logo";
 import Navigation from "./components/Navigation/Navigation";
-import SocialCpmponents from "./components/SocialComponents/SocialComponents";
+import SocialComponents from "./components/SocialComponents/SocialComponents";
+import * as SC from './Header.styled'
 
 export default function Header() {
     return (
-        <>
+        <SC.HeaderWrapper>
+        <Logo/>
         <Navigation/>
-        <SocialCpmponents/>
-        </>
+        <SocialComponents/>
+        </SC.HeaderWrapper>
     )
 }

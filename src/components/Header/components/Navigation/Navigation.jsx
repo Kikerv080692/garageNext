@@ -1,14 +1,26 @@
 import MainNavigation from "src@/data/navigation.json"
 import Link from "next/link"
 import { FaViber } from "react-icons/fa";
+import { useState } from "react";
 <FaViber />
+import ServiceNavigation from "../ServiceNavigation/ServiceNavigation";
+import * as SC from './Navigation.styled'
 
 export default function Navigation() {
+    const [isShowService, setIsShowService] = useState(false)
+
+    const  handleShow = () => {
+       setIsShowService(!isShowService) 
+    }
+
     return (
         <nav>
-            <ul>
-               { MainNavigation.map(({id,href,text}) => <li key={id} ><Link href={href}>{text}</Link></li>)}
-            </ul>
+            <SC.NavList>
+                {MainNavigation.map(({ id, href, text }) => <SC.NavListItem onClick={() => setIsShowService(false)} key={id} ><Link href={href}>{text}</Link></SC.NavListItem>)}
+                <li onClick={handleShow}>Service</li>
+            </SC.NavList>
+            {isShowService && <ServiceNavigation handleShow={handleShow}/> }
         </nav>
     )
 }
+

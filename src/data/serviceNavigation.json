@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "href": "/brake",
+        "text": "Brake"
+    },
+    {
+        "id": 1,
+        "href": "/diagnostic",
+        "text": "Diagnostic"
+    },
+    {
+        "id": 2,
+        "href": "/electric",
+        "text": "Electric"
+    },
+    {
+        "id": 3,
+        "href": "/engine",
+        "text": "Engine"
+    },
+    {
+        "id": 4,
+        "href": "/gassistem",
+        "text": "GasSistem"
+    }
+]

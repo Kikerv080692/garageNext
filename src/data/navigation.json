@@ -5,11 +5,6 @@
         "text": "Home"
     },
     {
-        "id": 1,
-        "href": "/service",
-        "text": "Service"
-    },
-    {
         "id": 2,
         "href": "/contact",
         "text": "Contact"
