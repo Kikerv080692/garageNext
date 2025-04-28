@@ -1,6 +1,6 @@
 
 
-export default function Diagnostic() {
+export default function DiagnosticPage() {
     
 
     return (

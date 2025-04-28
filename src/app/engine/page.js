@@ -1,4 +1,4 @@
-import EnginePage from "src@/pages/Engine/Engine";
+import EnginePage from "src@/pages/Engine/EnginePage";
 
 
 export default function Brake() {

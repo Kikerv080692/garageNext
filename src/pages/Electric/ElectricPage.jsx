@@ -1,6 +1,6 @@
 
 
-export default function Electric() {
+export default function ElectricPage() {
   
 
     return (

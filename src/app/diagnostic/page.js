@@ -1,4 +1,4 @@
-import DiagnosticPage from "src@/pages/Diagnostic/Diagnostic";
+import DiagnosticPage from "src@/pages/Diagnostic/DiagnosticPage";
 
 
 export default function Brake() {

@@ -1,6 +1,6 @@
 
 
-export default function Brake() {
+export default function BrakePage() {
     
     return (
         <>BRAKE</>

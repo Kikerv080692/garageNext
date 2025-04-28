@@ -1,4 +1,4 @@
-import ElectricPage from "src@/pages/Electric/Electric";
+import ElectricPage from "src@/pages/Electric/ElectricPage";
 
 
 export default function Electric() {

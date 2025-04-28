@@ -14,13 +14,13 @@ export default function Navigation() {
     }
 
     return (
-        <nav>
+        <SC.Nav>
             <SC.NavList>
                 {MainNavigation.map(({ id, href, text }) => <SC.NavListItem onClick={() => setIsShowService(false)} key={id} ><Link href={href}>{text}</Link></SC.NavListItem>)}
-                <li onClick={handleShow}>Service</li>
+                <SC.ServiceItem onClick={handleShow}>Service</SC.ServiceItem>
             </SC.NavList>
             {isShowService && <ServiceNavigation handleShow={handleShow}/> }
-        </nav>
+        </SC.Nav>
     )
 }
 
