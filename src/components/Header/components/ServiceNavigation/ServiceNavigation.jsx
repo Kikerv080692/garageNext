@@ -7,7 +7,7 @@ export default function ServiceNavigation({handleShow}) {
         <>
          <div>
             <SC.WrapperServiceNavigationList>
-               { ServiceNav.map(({id,href,text}) => <li onClick={handleShow} key={id} ><Link href={href}><img src="/images/diagnostic.png" alt="diagnostic" />{text}</Link></li>)}
+               { ServiceNav.map(({id,href,text,icon}) => <li onClick={handleShow} key={id} ><Link href={href}><img src={icon} alt={text} />{text}</Link></li>)}
             </SC.WrapperServiceNavigationList>
         </div>
         </>

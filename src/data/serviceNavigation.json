@@ -2,26 +2,31 @@
     {
         "id": 0,
         "href": "/brake",
-        "text": "Brake"
+        "text": "Brake",
+        "icon": "/images/brake-logo.png"
     },
     {
         "id": 1,
         "href": "/diagnostic",
-        "text": "Diagnostic"
+        "text": "Diagnostic",
+        "icon": "/images/diagnostic.png"
     },
     {
         "id": 2,
         "href": "/electric",
-        "text": "Electric"
+        "text": "Electric",
+        "icon": "/images/electric-car-logo.png"
     },
     {
         "id": 3,
         "href": "/engine",
-        "text": "Engine"
+        "text": "Engine",
+        "icon": "/images/car-engine-logo.png"
     },
     {
         "id": 4,
         "href": "/gassistem",
-        "text": "GasSistem"
+        "text": "GasSistem",
+        "icon": "/images/gas-logo.png"
     }
 ]

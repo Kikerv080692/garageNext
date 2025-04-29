@@ -11,9 +11,9 @@ export const HeaderWrapper = styled.div`
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: red;
+  background-color: grey;
 
-/* @media(max-width: ) */
+
 `
 export const LogoWrapper = styled.div`
   flex: 0 0 auto;
@@ -26,20 +26,10 @@ export const NavigationWrapper = styled.nav`
 `;
 
 export const SocialWrapper = styled.div`
-  flex: 0 0 auto;
+  
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
 `;
 
 
-// const Title = styled.h1`
-//   font-size: 40px;
-
-//   @media (max-width: 768px) {
-//     font-size: 30px;
-//   }
-
-//   @media (max-width: 480px) {
-//     font-size: 20px;
-//   }
-// `;

@@ -22,12 +22,12 @@ export default function Header() {
 
             <SC.SocialWrapper>
                 <SocialComponents />
+                <Translate />
             </SC.SocialWrapper>
-            <Translate />
             {
                 width && <BurgerButton />
             }
-            
+
         </SC.HeaderWrapper>
     )
 }
