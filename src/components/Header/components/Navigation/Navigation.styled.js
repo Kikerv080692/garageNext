@@ -1,61 +1,41 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav `
-/* background: red; */
-height: 60px;
+position: relative;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
+margin-top: 80px;
+
+@media (min-width: 768px) {
+margin-top: 0;
+}
 `
 
 export const NavList = styled.ul `
-/* display: flex;
-align-items: center;
-justify-content: center; */
+
+@media (min-width: 768px){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ }
 list-style: none;
 cursor: pointer;
 `
 
 export const NavListItem = styled.li`
-/* display: flex;
-align-items: center;
-box-sizing: border-box;
+margin-bottom: 20px;
+@media (min-width: 768px) {
+margin-bottom: 0;
+}
 
-height:80px;
-padding: 0 20px;
-transition: all 0.3s ease; 
-
-  &:hover {
-    background-color: #0070f3; 
-    transform: scale(1.05); 
-    color: white; 
-  }
-  @media(min-width: 768px){
-      font-size: 24px;
-  }
-  @media(min-width: 1024px){
-    font-size: 36px;
-} */
 `
 
 export const ServiceItem = styled.li`
-/* display: flex;
-justify-content: center;
-align-items: center;
-
-height: 80px;
-padding: 0 20px;
-transition: all 0.3s ease; 
-
-&:hover {
-  background-color: #0070f3; 
-  transform: scale(1.05); 
-  color: white; 
+margin-top: 20px;
+@media (min-width: 768px) {
+margin-top: 0;
 }
-@media(min-width: 768px){
-    font-size: 24px;
-}
-@media(min-width: 1024px){
-    font-size: 36px;
-} */
 `

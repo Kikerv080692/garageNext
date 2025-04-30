@@ -5,11 +5,9 @@ import * as SC from './ServiceNavigation.styled'
 export default function ServiceNavigation({handleShow}) {
     return (
         <>
-         <div>
             <SC.WrapperServiceNavigationList>
-               { ServiceNav.map(({id,href,text,icon}) => <li onClick={handleShow} key={id} ><Link href={href}><img src={icon} alt={text} />{text}</Link></li>)}
+               { ServiceNav.map(({id,href,text,icon}) => <SC.ListItem onClick={handleShow} key={id} ><Link href={href}><SC.Img src={icon} alt={text} />{text}</Link></SC.ListItem>)}
             </SC.WrapperServiceNavigationList>
-        </div>
         </>
     )
 }

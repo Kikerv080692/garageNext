@@ -11,12 +11,16 @@ export default function BurgerButton() {
         setIsShowMenu(!isShowMenu)
     }
 
+    const handleCloseMenu = () => {
+        setIsShowMenu(false)
+    }
+
     return (
         <SC.Wrapper>
         <SC.IconButton type='button' onClick={handleShowMenu}>
            {!isShowMenu ?  <img src='/images/menu.png' alt="menu"/> : <img src='/images/close-option.png' alt="close"/>}
         </SC.IconButton>
-        {isShowMenu && <BurgerMenu handleShowMenu={handleShowMenu}/>}
+         <BurgerMenu isShowMenu={isShowMenu} handleShowMenu={handleShowMenu} handleCloseMenu={handleCloseMenu}/>
         </SC.Wrapper>
     )
 }

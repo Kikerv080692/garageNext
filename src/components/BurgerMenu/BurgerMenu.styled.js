@@ -4,14 +4,24 @@ export const Wrapper = styled.div`
 position: fixed;
 background-color: grey;
 top: 0;
-left: 100px;
 width: 100vw;
 height: 100vh ;
 color: black;
-transform: translateX(-100%);
-  transition: transform 0.3s ease;
-
-  &.show {
-    transform: translateX(0);
-  }
+  transition: 0.5s linear;
+&.enter {
+  left: 0; 
+  opacity: 1;
+  pointer-events: auto;
+}
+&.out {
+  left: -300px;
+  pointer-events: none;
+  opacity: 0;
+}
+`
+export const Img = styled.img`
+  position: absolute;
+  top: 30px;
+  right: 30px ;
+  width: 30px;
 `
