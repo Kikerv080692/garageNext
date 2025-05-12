@@ -3,13 +3,10 @@ import styled from "styled-components";
 export const WrapperFooter = styled.footer`
   background-color: #222;
   color: #fff;
-  padding: 40px 120px;
+  padding: 40px 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100vw;
   img {
     width: 24px;

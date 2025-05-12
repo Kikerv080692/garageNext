@@ -1,8 +1,9 @@
-
+"use client"
+import * as SC from './EnginePage.styled'
 export default function EnginePage() {
   
 
     return (
-      <>Engine</>
+      <SC.WrapperEnginePage>Engine</SC.WrapperEnginePage>
     );
 }

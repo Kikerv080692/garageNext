@@ -29,6 +29,12 @@ export const NavListItem = styled.li`
 margin-bottom: 20px;
 @media (min-width: 768px) {
 margin-bottom: 0;
+padding-right: 25px;
+
+&:hover {
+  color: green;
+  transform: scale(1.1)
+}
 }
 
 `
@@ -37,5 +43,9 @@ export const ServiceItem = styled.li`
 margin-top: 20px;
 @media (min-width: 768px) {
 margin-top: 0;
+&:hover {
+  color: green;
+  transform: scale(1.1)
+}
 }
 `

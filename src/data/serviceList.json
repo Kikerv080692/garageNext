@@ -1,0 +1,18 @@
+[
+    {
+        "title" : "Brake",
+        "icon": "/images/brake-logo.png",
+        "text": "dfbdfbfdgbgfbgfdfgbfgbfgbgfbfgnhgnhgjnhgnhdfgbdfgbgfsbgfsdbsgfdbsgfbsg"
+
+    },
+    {
+       "title" : "gas",
+       "icon": "/images/car-engine-logo.png",
+       "text": "fdsffsfsdv,dsnc dsncsdc skdjbcksdbcjkdbcjsdbcjdsbcjksdcjkdsncsdkcndslkcndaskcndsklcnskjcsjkcbkscd "
+    },
+    {
+        "title" : "motor",
+        "icon": "/images/electric-car-logo.png",
+        "text": "fdsffsfsdv,dsnc dsncsdc skdjbcksdbcjkdbcjsdbcjdsbcjksdcjkdsncsdkcndslkcndaskcndsklcnskjcsjkcbkscd "
+     }
+]

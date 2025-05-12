@@ -1,4 +1,5 @@
 "use client"
+import ServiceList from './components/ServiceList/ServiceList'
 import * as SC from './HomePages.styled'
 
 export default function HomePage() {
@@ -6,12 +7,13 @@ export default function HomePage() {
         // <>Home page</>
         <SC.Wrapper>
             <div>
-                <h1>Наше СТО вирішить будь-які проблеми, які виникли з вашим автомобілем</h1>
-                <h2>Ми розпочинаємо обслуговування протягом кількох годин після доставки автомобіля в майстерню. Гарантія 24 місяці.</h2>
+                <SC.Title>Наше СТО вирішить будь-які проблеми, які виникли з вашим автомобілем</SC.Title>
+                <SC.SubTitle>Ми розпочинаємо обслуговування протягом кількох годин після доставки автомобіля в майстерню. Гарантія 24 місяці.</SC.SubTitle>
             </div>
-            <div>
-                <img src="/images/Garage.webp" alt="Garage" />
-            </div>
+            <SC.WrapperImage>
+                <SC.Image src="/images/Garage.webp" alt="Garage" />
+            </SC.WrapperImage>
+            <ServiceList/>
         </SC.Wrapper>
 
     )

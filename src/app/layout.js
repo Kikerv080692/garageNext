@@ -27,11 +27,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <ThemeProvider theme={{}}>
-      <body >
-        <Header/>
-        {children}
-        <Footer/>
-      </body>
+        <body style= {{display: "flex", flexDirection: "column", minHeight: "100vh"}}>
+          <Header />
+          <main style={{flex: "1"}}>
+            {children}
+          </main>
+          <Footer />
+        </body>
       </ThemeProvider>
     </html>
   );

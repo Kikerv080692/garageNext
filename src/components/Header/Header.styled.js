@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.div`
-position: relative;
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -24,6 +23,8 @@ export const NavigationWrapper = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  color: white;
  }
 `;
 

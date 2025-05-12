@@ -1,9 +1,10 @@
-
+"use client"
+import * as SC from './ElectricPage.styled'
 
 export default function ElectricPage() {
   
 
     return (
-      <>ELECTRIC</>
+      <SC.WrapperElectricPage>ELECTRIC</SC.WrapperElectricPage>
     );
 }
