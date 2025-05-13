@@ -1,20 +1,24 @@
 "use client"
 import ServiceList from './components/ServiceList/ServiceList'
 import * as SC from './HomePages.styled'
-
+import { useTranslation } from 'react-i18next'
 export default function HomePage() {
+const {t} = useTranslation()
     return (
-        // <>Home page</>
+        <>
         <SC.Wrapper>
             <div>
-                <SC.Title>Наше СТО вирішить будь-які проблеми, які виникли з вашим автомобілем</SC.Title>
+                <SC.Title>{t('tittle')}</SC.Title>
                 <SC.SubTitle>Ми розпочинаємо обслуговування протягом кількох годин після доставки автомобіля в майстерню. Гарантія 24 місяці.</SC.SubTitle>
             </div>
             <SC.WrapperImage>
                 <SC.Image src="/images/Garage.webp" alt="Garage" />
             </SC.WrapperImage>
-            <ServiceList/>
         </SC.Wrapper>
+        <SC.WrapperServiceList>
+            <ServiceList/>
+        </SC.WrapperServiceList>
+        </>
 
     )
 }

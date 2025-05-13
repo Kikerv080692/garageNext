@@ -1,18 +1,23 @@
 [
     {
         "title" : "Brake",
-        "icon": "/images/brake-logo.png",
+        "icon": "/images/break-1.jpg",
         "text": "dfbdfbfdgbgfbgfdfgbfgbfgbgfbfgnhgnhgjnhgnhdfgbdfgbgfsbgfsdbsgfdbsgfbsg"
 
     },
     {
        "title" : "gas",
-       "icon": "/images/car-engine-logo.png",
+       "icon": "/images/diagnostic.jpg",
        "text": "fdsffsfsdv,dsnc dsncsdc skdjbcksdbcjkdbcjsdbcjdsbcjksdcjkdsncsdkcndslkcndaskcndsklcnskjcsjkcbkscd "
     },
     {
         "title" : "motor",
-        "icon": "/images/electric-car-logo.png",
+        "icon": "/images/motor.jpg",
+        "text": "fdsffsfsdv,dsnc dsncsdc skdjbcksdbcjkdbcjsdbcjdsbcjksdcjkdsncsdkcndslkcndaskcndsklcnskjcsjkcbkscd "
+     },
+     {
+        "title" : "diagnostic",
+        "icon": "/images/ccccc.jpg",
         "text": "fdsffsfsdv,dsnc dsncsdc skdjbcksdbcjkdbcjsdbcjdsbcjksdcjkdsncsdkcndslkcndaskcndsklcnskjcsjkcbkscd "
      }
 ]

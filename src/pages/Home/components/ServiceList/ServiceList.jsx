@@ -11,8 +11,8 @@ export default function ServiceList() {
     }
 
     return (
-        <ul>
+        <SC.List>
         {Services.map(({title, icon, text},index) => <ServiceListItem key={index} isOpen={openIndex === index} handleClick={() => toggleOpenIndex(index)} title={title} img={icon}>{text}</ServiceListItem>)}
-        </ul>
+        </SC.List>
     )
 }
