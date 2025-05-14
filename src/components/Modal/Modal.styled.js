@@ -16,12 +16,18 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 background-color: white;
+width: 350px;
+height: 200px;
+border-radius: 6px;
 `
 
 export const Close = styled.button`
 position: absolute;
-top: 10px;
-right: 20px;
+top: 0;
+right: 0;
+width: 40px;
+height: 40px;
+color: white;
 background: transparent;
 border: none;
 outline: none;

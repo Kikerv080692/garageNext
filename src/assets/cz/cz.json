@@ -1,3 +1,7 @@
 {
-    "tittle": "Naše autoservis vyřeší jakýkoli problém, který vznikl s vaším vozem. "
+    "tittle": "Naše autoservis vyřeší jakýkoli problém, který vznikl s vaším vozem. ",
+    "phone": " Telefonní číslo",
+    "send": "Odeslat",
+    "placeholder": "+420 XXX XXX XXX",
+    "buttonphone": "Tlačítko kontaktu"
 }

@@ -6,6 +6,7 @@ import Footer from "src@/components/Footer/Footer";
 import { ThemeProvider } from "styled-components";
 import ButtonPhone from "src@/components/Header/components/ButtonPhone/ButtonPhone";
 import '../i18n'
+import ButtonLocation from "src@/components/ButtonLocation/ButtonLocation";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
           <main style={{flex: "1"}}>
             {children}
             <ButtonPhone/>
+            <ButtonLocation/>
           </main>
           <Footer />
         </body>
