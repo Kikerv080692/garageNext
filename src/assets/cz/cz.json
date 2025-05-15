@@ -50,5 +50,14 @@
     "airflow": "VÁHA VZDUCHU – výměna, kontrola, proměření",
     "wiring": "ELEKTRIKA – opravy, instalace, údržba",
     "electronics": "ELEKTRONIKA – opravy auto elektroniky"
-  }
+  },
+  "brakePage": {
+  "title": "Oprava brzdového systému",
+  "title2": "Odstranění závad hlavních částí brzdového systému vozidla a plánovaná výměna brzdové kapaliny/spotřebního materiálu",
+  "title3": "SOUČÁSTÍ SLUŽEB V RÁMCI VÝMĚNY KOMPONENTŮ BRZDOVÉHO SYSTÉMU V AUTOSERVISU Auto Master JSOU:",
+  "title4": "Diagnostika brzdového systému, kontrola opotřebení brzdových kotoučů, stav brzdových hadiček a spojek, a také kontrola brzdové kapaliny.",
+  "title5": "Výměna všech opotřebovaných dílů za nové",
+  "title6": "Kontrola a adaptace elektronické parkovací brzdy"
+}
+
 }
