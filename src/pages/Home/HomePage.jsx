@@ -9,7 +9,7 @@ const {t} = useTranslation()
         <SC.Wrapper>
             <div>
                 <SC.Title>{t('tittle')}</SC.Title>
-                <SC.SubTitle>Ми розпочинаємо обслуговування протягом кількох годин після доставки автомобіля в майстерню. Гарантія 24 місяці.</SC.SubTitle>
+                <SC.SubTitle>{t('tittle2')}</SC.SubTitle>
             </div>
             <SC.WrapperImage>
                 <SC.Image src="/images/Garage.webp" alt="Garage" />

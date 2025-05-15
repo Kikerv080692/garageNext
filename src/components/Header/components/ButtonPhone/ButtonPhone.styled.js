@@ -15,15 +15,15 @@ export const WrapperButton = styled.button`
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 2px solid green;
+  border: 2px solid  #25D366;
   padding: 20px;
-  background-color: green;
+  background-color:  #25D366;
   cursor: pointer;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(0, 128, 0, 0.3);
+ 
 
   .icon {
     height: 30px;

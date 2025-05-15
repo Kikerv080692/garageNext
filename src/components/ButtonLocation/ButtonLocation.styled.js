@@ -7,10 +7,10 @@ right: 30px;
 width: 60px;
 height: 60px;
 border-radius: 50%;
-background: green;
+background:  #25D366;
 cursor: pointer;
   overflow: hidden;
-   border: 2px solid green;
+   border: 2px solid  #25D366;
 `
 
 export const Button = styled.button`
@@ -22,7 +22,7 @@ width: 40px;
 height: 40px;
 cursor: pointer;
 img {
-    background: green;
+    background:  #25D366;
     border: none;
     display: block;
     width: 100%;

@@ -1,7 +1,54 @@
 {
-    "tittle": "Naše autoservis vyřeší jakýkoli problém, který vznikl s vaším vozem. ",
-    "phone": " Telefonní číslo",
-    "send": "Odeslat",
-    "placeholder": "+420 XXX XXX XXX",
-    "buttonphone": "Tlačítko kontaktu"
+  "tittle": "Naše autoservis vyřeší jakýkoli problém, který vznikl s vaším vozem. ",
+    "tittle2": "Servis začínáme během několika hodin po dodání vozidla do servisu. Záruka 24 měsíců.",
+  "phone": " Telefonní číslo",
+  "send": "Odeslat",
+  "phoneText": "Zavoláme vám do 30 minut",
+  "placeholder": "+420 XXX XXX XXX",
+  "buttonphone": "Tlačítko kontaktu",
+  "maintenance": {
+    "title": "Běžný servis",
+    "inspection": "Servisní prohlídky – podle počtu najetých kilometrů a stáří vozidla",
+    "oil": "Oleje – výměna motorového a převodového oleje, utěsnění, odstranění úniků",
+    "filters": "Filtry – výměna filtrů, kontrola, čištění",
+    "lights": "Světlomety – seřízení, oprava a výměna osvětlení"
+  },
+  "chassis": {
+    "title": "Podvozek",
+    "shocks": "TLUMIČE – výměna tlumiče, pružin, měřeníi",
+    "alignment": "GEOMETRIE KOL – sbíhavost kol, seřízení geometrie včetně protokolu",
+    "parts": "PODVOZKY – výměny podvozkových dílů, údržba",
+    "brakes": "BRZDY – výměna brzd, kotoučů, destiček, oprava brzd, testy brzd, výroba brzdových trubek",
+    "bearings": "LOŽISKA – výměna ložiska, kontrola házivosti nábojů",
+    "fluid": "BRZDOVÁ KAPALINA – výměna brzdové kapaliny, změření bodu varu"
+  },
+  "exhaust": {
+    "title": "Výfukové potrubí",
+    "muffler": "VÝFUK – výměna a oprava výfuku",
+    "flex": "VLNOVEC VÝFUKU – výměny vlnovce",
+    "lambda": "LAMBDA SONDA – výměna, proměření stavu",
+    "catalyst": "KATALYZÁTORY – výměna katalyzátoru",
+    "dpf": "FILTRY pevných částic – výměna, doplnění, odblokování"
+  },
+  "engine": {
+    "title": "Motor, převodovka",
+    "timing": "ROZVODY – výměna rozvodů, seřízení, nastavení",
+    "sparkPlugs": "ZAPALOVACÍ SVÍČKY – výměna svíček",
+    "glowPlugs": "ŽHAVICÍ SVÍČKY – výměna žhavičů",
+    "engine": "MOTOR – oprava motoru, seřízení motoru, generální opravy",
+    "gearbox": "PŘEVODOVKA – opravy převodovek, repase, výměny dílů",
+    "injectors": "VSTŘIKY, ČERPADLA – oprava vstřiku, repase",
+    "head": "HLAVY – broušení hlav, tlakování, výměny, opravy",
+    "turbo": "TURBODMYCHADLA – výměna turba"
+  },
+   "electric": {
+    "title": "Autoelektrika",
+    "alternator": "ALTERNÁTOR – výměna, repase",
+    "starter": "STARTER – výměna, repase",
+    "battery": "AUTOBATERIE – výměna, dobití, údržba",
+    "cables": "KABELY – výměna zapalovacích kabelů",
+    "airflow": "VÁHA VZDUCHU – výměna, kontrola, proměření",
+    "wiring": "ELEKTRIKA – opravy, instalace, údržba",
+    "electronics": "ELEKTRONIKA – opravy auto elektroniky"
+  }
 }

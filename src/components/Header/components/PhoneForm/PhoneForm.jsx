@@ -113,6 +113,7 @@ export default function PhoneForm() {
       </div>
       <SC.ButtonSend type="submit">{t('send')}</SC.ButtonSend>
       <span>{status}</span>
+      <p>{t('phoneText')}</p>
     </SC.Form>
   );
 }
