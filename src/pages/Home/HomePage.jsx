@@ -1,4 +1,5 @@
 "use client"
+import Brands from 'src@/components/Brands/Brands'
 import ServiceList from './components/ServiceList/ServiceList'
 import * as SC from './HomePages.styled'
 import { useTranslation } from 'react-i18next'
@@ -18,6 +19,7 @@ const {t} = useTranslation()
         <SC.WrapperServiceList>
             <ServiceList/>
         </SC.WrapperServiceList>
+            <Brands/>
         </>
 
     )
