@@ -20,6 +20,7 @@ export const IconButton = styled.button`
     height: 32px;
     object-fit: contain;
     transition: transform 0.3s ease; 
+    
   }
 
   &:focus {

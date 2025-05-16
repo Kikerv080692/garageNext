@@ -5,13 +5,14 @@ margin: 0;
 margin-top: 30px;
 list-style: none;
 padding: 0;
+width: 250px;
 
 @media (min-width: 768px) {
 margin-top: 0;
 position: absolute;
 top: 60px;
 right: -160px;
-background: black;
+background: #404040;
 }
 `
 
@@ -26,7 +27,8 @@ margin-bottom: 10px;
 }
 `
 export const Img = styled.img`
-margin-right: 10px;
+padding-left: 20px;
+ padding-right: 10px;
 filter: brightness(0) invert(1);
 
 `

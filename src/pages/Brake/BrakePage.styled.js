@@ -6,6 +6,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 gap: 10px;
+color: white;
 margin-top: 50px;
 margin-left: 20px;
 margin-right: 20px;

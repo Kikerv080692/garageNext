@@ -1,13 +1,17 @@
 import * as SC from './Footer.styled'
+import { useTranslation } from 'react-i18next'
+
 
 export default function Footer() {
+    const { t } = useTranslation()
+
     return (
         <SC.WrapperFooter>
             <SC.InfoSection>
                 <img src="/images/clock.png" alt="clock" />
                 <div>
-                    <h4>Години роботи</h4>
-                    <p>Пн. - Сб. <span>8:00 - 20:00</span></p>
+                    <h4>{t('footer.hours')}</h4>
+                    <p>{t("footer.days")} <span>8:00 - 20:00</span></p>
                 </div>
             </SC.InfoSection>
 
@@ -15,7 +19,7 @@ export default function Footer() {
                 <address>
                     <p>
                         <img src="/images/mail.png" alt="mail" />
-                        <a href="mailto:valigurskyi41@gmail.com">valigurskyi41@gmail.com</a>
+                        <a href="mailto:valihursky@gmail.com">valihursky@gmail.com</a>
                     </p>
                     <p>
                         <img src="/images/telephone.png" alt="phone" />
@@ -24,7 +28,7 @@ export default function Footer() {
                     <p>
                         <img src="/images/location.png" alt="location" />
                         <a href="https://maps.app.goo.gl/B2mJKV3b2wG6phrz5" rel="noopener noreferrer">
-                            Stankova 24, Brno - Královo Pole
+                            Vinohradská 1305/82a, 618 00 Brno-Černovice
                         </a>
                     </p>
                 </address>

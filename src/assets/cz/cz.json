@@ -1,6 +1,10 @@
 {
-  "tittle": "Naše autoservis vyřeší jakýkoli problém, který vznikl s vaším vozem. ",
-    "tittle2": "Servis začínáme během několika hodin po dodání vozidla do servisu. Záruka 24 měsíců.",
+  "tittle": {
+  "highlight1": "Naše STK",
+  "middle": "vyřeší jakýkoli problém, který nastal s",
+  "highlight2": "vaším vozem"
+},
+  "tittle2": "Servis začínáme během několika hodin po dodání vozidla do servisu. Záruka 24 měsíců.",
   "phone": " Telefonní číslo",
   "send": "Odeslat",
   "phoneText": "Zavoláme vám do 30 minut",
@@ -41,7 +45,7 @@
     "head": "HLAVY – broušení hlav, tlakování, výměny, opravy",
     "turbo": "TURBODMYCHADLA – výměna turba"
   },
-   "electric": {
+  "electric": {
     "title": "Autoelektrika",
     "alternator": "ALTERNÁTOR – výměna, repase",
     "starter": "STARTER – výměna, repase",
@@ -52,15 +56,23 @@
     "electronics": "ELEKTRONIKA – opravy auto elektroniky"
   },
   "brakePage": {
-  "title": "Oprava brzdového systému",
-  "title2": "Odstranění závad hlavních částí brzdového systému vozidla a plánovaná výměna brzdové kapaliny/spotřebního materiálu",
-  "title3": "SOUČÁSTÍ SLUŽEB V RÁMCI VÝMĚNY KOMPONENTŮ BRZDOVÉHO SYSTÉMU V AUTOSERVISU Auto Master JSOU:",
-  "title4": "Diagnostika brzdového systému, kontrola opotřebení brzdových kotoučů, stav brzdových hadiček a spojek, a také kontrola brzdové kapaliny.",
-  "title5": "Výměna všech opotřebovaných dílů za nové",
-  "title6": "Kontrola a adaptace elektronické parkovací brzdy"
-},
- "swiper":{
-        "tittle": "Servisujeme všechny značky automobilů"
-    }
-
+    "title": "Oprava brzdového systému",
+    "title2": "Odstranění závad hlavních částí brzdového systému vozidla a plánovaná výměna brzdové kapaliny/spotřebního materiálu",
+    "title3": "SOUČÁSTÍ SLUŽEB V RÁMCI VÝMĚNY KOMPONENTŮ BRZDOVÉHO SYSTÉMU V AUTOSERVISU Auto Master JSOU:",
+    "title4": "Diagnostika brzdového systému, kontrola opotřebení brzdových kotoučů, stav brzdových hadiček a spojek, a také kontrola brzdové kapaliny.",
+    "title5": "Výměna všech opotřebovaných dílů za nové",
+    "title6": "Kontrola a adaptace elektronické parkovací brzdy"
+  },
+  "swiper": {
+    "tittle": "Servisujeme všechny značky automobilů"
+  },
+  "navigationList": {
+    "home": "Domů",
+    "contact": "Kontakty",
+    "service": "Služby autoservisu"
+  },
+  "footer":{
+    "hours": "Pracovní doba",
+    "days": "Po. - So."
+  }
 }

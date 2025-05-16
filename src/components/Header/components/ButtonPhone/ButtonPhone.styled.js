@@ -23,7 +23,7 @@ export const WrapperButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
- 
+ z-index: 100;
 
   .icon {
     height: 30px;

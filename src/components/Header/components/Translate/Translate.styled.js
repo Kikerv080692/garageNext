@@ -6,7 +6,7 @@ position: relative;
 `
 export const LengWrapper = styled.div`
 position: absolute;
-background-color: green;
+background-color: #404040;
 display: flex;
 flex-direction: column;
 gap: 5px;

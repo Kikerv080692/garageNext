@@ -6,7 +6,7 @@ export default function ContactPage() {
         <SC.WrapperContactPage>
             <div style={{ width: '100%', height: '400px' }}>
                 <iframe
-                    src="https://www.google.com/maps?q=Autoservis+Fortuna+Czech+Republic&output=embed"
+                    src="https://maps.app.goo.gl/B2mJKV3b2wG6phrz5"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

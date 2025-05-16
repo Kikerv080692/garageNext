@@ -2,7 +2,7 @@ import * as SC from './ButtonLocation.styled'
 
 export default function ButtonLocation() {
       const handleClick = () => {
-        const locationUrl = 'https://www.google.com/maps?q=50.4501,30.5242';
+        const locationUrl = "https://maps.app.goo.gl/B2mJKV3b2wG6phrz5";
         window.open(locationUrl, '_blank'); 
     }
     return (

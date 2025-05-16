@@ -27,24 +27,35 @@ export default function Brands() {
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 3,
+                        slidesPerView: 3,   
                         spaceBetween: 30,
                     },
                     1024: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 6,
+                        spaceBetween: 20,
                     },
                 }}
                 loop={true}
                 modules={[Pagination, Navigation]}
             >
                 <SwiperSlide><Image src="/logos/bmw-logo.png" width={80} height={80} /></SwiperSlide>
-                <SwiperSlide><Image src="/logos/ford-logo.png" width={120} height={80} /></SwiperSlide>
-                <SwiperSlide><Image src="/logos/logo-audi.jpg" width={80} height={80} /></SwiperSlide>
-                <SwiperSlide><Image src="/logos/logo-honda.jpg" width={80} height={80} /></SwiperSlide>
-                <SwiperSlide><Image src="/logos/logo-volvo.jpg" width={80} height={80} /></SwiperSlide>
-                <SwiperSlide><Image src="/logos/mazda-logo.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/8.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/audi.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/5.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/jeep.png" width={80} height={80} /></SwiperSlide>
                 <SwiperSlide><Image src="/logos/nissan-logo.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/Skoda-logo.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/volkswagen-logo.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/21.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/29.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/13.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/32.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/15.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/22.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/33.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/16.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/17.png" width={80} height={80} /></SwiperSlide>
+                <SwiperSlide><Image src="/logos/23.png" width={80} height={80} /></SwiperSlide>
             </Swiper>
         </SC.WrapperSwiper>
     )

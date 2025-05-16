@@ -2,11 +2,12 @@
     {
         "id": 0,
         "href": "/",
-        "text": "Home"
+        "text": "navigationList.home"
     },
     {
         "id": 2,
         "href": "/contact",
-        "text": "Contact"
+        "text": "navigationList.contact"
     }
+   
 ]

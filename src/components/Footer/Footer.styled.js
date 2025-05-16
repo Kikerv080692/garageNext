@@ -8,10 +8,12 @@ export const WrapperFooter = styled.footer`
   flex-direction: column;
   gap: 24px;
   width: 100vw;
+  border-top: 2px solid #C4C4C4;
   img {
     width: 24px;
     margin-right: 10px;
     vertical-align: middle;
+    filter: brightness(0) invert(1)
   }
 
   @media(min-width: 768px) {

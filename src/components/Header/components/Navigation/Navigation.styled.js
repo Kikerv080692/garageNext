@@ -7,6 +7,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 80px;
+color: white;
+font-size: 24px;
 
 @media (min-width: 768px) {
 margin-top: 0;
@@ -40,7 +42,14 @@ padding-right: 25px;
 `
 
 export const ServiceItem = styled.li`
-margin-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start; 
+  gap: 5px;
+  cursor: pointer;
+ svg {
+    margin-top: 5px; 
+  }
 @media (min-width: 768px) {
 margin-top: 0;
 &:hover {

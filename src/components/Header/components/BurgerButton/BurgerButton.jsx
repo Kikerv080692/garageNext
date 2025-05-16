@@ -4,6 +4,7 @@ import * as SC from './BurgerButton.styled'
 
 
 
+
 export default function BurgerButton() {
     const [isShowMenu, setIsShowMenu] = useState(false)
 
@@ -18,9 +19,10 @@ export default function BurgerButton() {
     return (
         <SC.Wrapper>
         <SC.IconButton type='button' onClick={handleShowMenu}>
-           {!isShowMenu ?  <img src='/images/menu.png' alt="menu"/> : <img src='/images/close-option.png' alt="close"/>}
+           {!isShowMenu ? <img src='/images/menu.png' alt="menu"/> : <img src='/images/close-option.png' alt="close"/>}
         </SC.IconButton>
          <BurgerMenu isShowMenu={isShowMenu} handleShowMenu={handleShowMenu} handleCloseMenu={handleCloseMenu}/>
         </SC.Wrapper>
     )
 }
+

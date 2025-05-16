@@ -11,6 +11,7 @@ background:  #25D366;
 cursor: pointer;
   overflow: hidden;
    border: 2px solid  #25D366;
+   z-index: 100;
 `
 
 export const Button = styled.button`

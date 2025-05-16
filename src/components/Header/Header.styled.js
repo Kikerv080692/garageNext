@@ -11,8 +11,8 @@ export const HeaderWrapper = styled.div`
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: grey;
-
+  background-color: #404040;
+border-bottom: 1px solid #C4C4C4;
 `
 export const LogoWrapper = styled.div`
   flex: 0 0 auto;
