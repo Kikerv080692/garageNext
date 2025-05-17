@@ -74,5 +74,19 @@
   "footer":{
     "hours": "Pracovní doba",
     "days": "Po. - So."
-  }
+  },
+      "diagnostik":{
+        "title": "Komplexní diagnostika auta",
+        "subtitle": "Kompletní diagnostika vozu před koupí",
+        "text": "Rozhodli jste se koupit ojeté auto, ale nemáte potřebné zkušenosti? Pak se nespoléhejte na své štěstí. Velmi často se totiž stává, že auto koupené na autobazaru nebo přes internet se během 2–3 měsíců provozu změní na... šrot.",
+        "text2": "Proto se nevyplatí šetřit na komplexní diagnostice při koupi ne zcela „nového“ vozu. Odborníci z autoservisu důkladně prověří stav všech částí, komponent a systémů vozidla, abyste měli reálný přehled o jeho technickém stavu.",
+         "li1": "Zkontrolují funkčnost převodovky a podvozku.",
+        "li2": "Prověří stav motoru.",
+        "li3": "Zjistí, nakolik uváděný nájezd kilometrů odpovídá skutečnosti.",
+        "li4": "Prohlédnou karoserii vozu (přítomnost koroze, přelakovaných částí apod.).",
+        "li5": "Provedou diagnostiku elektroinstalace.",
+        "li6": "Zkontrolují stav brzdového systému.",
+        "end": "Na základě získaných informací si potenciální kupující bude moci určit, do jaké míry odpovídá požadovaná cena technickému stavu vozidla."
+}
+
 }
