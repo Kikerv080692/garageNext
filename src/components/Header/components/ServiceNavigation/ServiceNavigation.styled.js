@@ -28,7 +28,7 @@ margin-bottom: 10px;
 `
 export const Img = styled.img`
 padding-left: 20px;
- padding-right: 10px;
+padding-right: 10px;
 filter: brightness(0) invert(1);
 
 `

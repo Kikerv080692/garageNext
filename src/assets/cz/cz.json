@@ -87,6 +87,14 @@
         "li5": "Provedou diagnostiku elektroinstalace.",
         "li6": "Zkontrolují stav brzdového systému.",
         "end": "Na základě získaných informací si potenciální kupující bude moci určit, do jaké míry odpovídá požadovaná cena technickému stavu vozidla."
+},
+"serviceNavigation": {
+    "brake": "Brzdový systém",
+    "diagnostik": "Diagnostika",
+    "electric": "Autoelektrika",
+    "engin": "Motor",
+    "gasSistem": "Výfukový systém"
 }
+
 
 }
