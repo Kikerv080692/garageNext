@@ -116,14 +116,14 @@ export const Image = styled.img`
 `;
 
 export const WrapperServiceList = styled.div`
-display: flex;
+/* display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: center; */
 border-radius: 6px;
 margin: 0 8px;
 margin-bottom: 30px;
 
 @media (min-width: 768px){
-  margin: 50px;
+  margin-bottom: 50px;
 }
 `

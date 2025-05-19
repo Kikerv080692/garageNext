@@ -9,7 +9,7 @@ export default function ServiceListItem({ children, title, img, handleClick, isO
             <SC.Item onClick={handleClick}>
                 <SC.WrapperIMGTitle>
                     <div>
-                    <img src={img} alt="" />
+                    <img src={img} alt="3" />
                     </div>
                     <h2>{title}</h2>
                       <SC.Icon $isopen={isOpen}> 

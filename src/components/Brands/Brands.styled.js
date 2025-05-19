@@ -6,7 +6,7 @@ max-width: 100%;
 margin: 0 auto;
 padding: 20px 10px;
 background: orange;
-
+margin-bottom: 30px;
 
 h1{
     font-size: 22px;

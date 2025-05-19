@@ -9,16 +9,16 @@ export default function ElectricPage() {
   return (
     <SC.WrapperElectricPage>
       <div>
-        <h1>
+        <SC.Title>
           {t("electricPage.title")}
-        </h1>
+        </SC.Title>
       </div>
       <div>
-        <h2>
+        <SC.Subtitle>
           {t("electricPage.subtitle")}
-        </h2>
+        </SC.Subtitle>
       </div>
-      <img src="/images/inside-lapTop.jpg" alt="electric" />
+      <SC.Image src="/images/inside-lapTop.jpg" alt="electric" />
       <SC.WrapperTextTitle><h3>{t("electricPage.textTitle")}</h3></SC.WrapperTextTitle>
       <SC.WrapperUl>
         <li>{t("electricPage.text1")}</li>

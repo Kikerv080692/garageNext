@@ -22,7 +22,7 @@ export const WrapperDiagnosticPage = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  margin: 50px 20px;
+  padding: 50px 20px;
   color: white;
 `;
 
@@ -36,26 +36,34 @@ export const WrapperTittle = styled.div`
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-    word-break: break-word;
-    line-height: 1.2;
+    line-height: 1.3;
     margin: 0 auto;
-    max-width: 800px;
-     background: linear-gradient(90deg,rgb(0, 255, 153),rgb(102, 255, 0));
+    max-width: 900px;
+    word-break: break-word;
+    background: linear-gradient(90deg, rgb(0, 255, 153), rgb(102, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 36px;
+    }
   }
 `;
 
 export const WrapperIMG = styled.div`
   position: relative;
-  width: 400px;
+  width: 100%;
+  max-width: 600px;
 
   img {
     width: 100%;
     display: block;
   }
 `;
-
 
 export const LogoWaveWrapper = styled.div`
   position: absolute;
@@ -68,7 +76,6 @@ export const LogoWaveWrapper = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 2;
-  overflow: visible;
 
   &::after {
     content: "";
@@ -80,7 +87,6 @@ export const LogoWaveWrapper = styled.div`
     background: black;
     border-radius: 6px;
     animation: ${wavePulse} 2s infinite;
-    transform-origin: center;
     transform: translate(-50%, -50%);
     z-index: -1;
     opacity: 0.4;
@@ -89,62 +95,75 @@ export const LogoWaveWrapper = styled.div`
   img {
     width: 32px;
     height: 32px;
-    z-index: 2;
-     
   }
 `;
+
 export const SubTitle = styled.div`
-h2{
-      background: linear-gradient(90deg,rgb(255, 204, 0),rgb(102, 255, 0));
+  text-align: center;
+
+  h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgb(255, 204, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-`
+
+    @media (min-width: 768px) {
+      font-size: 26px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 30px;
+    }
+  }
+`;
 
 export const Text1 = styled.div`
-p{
-    background: linear-gradient(90deg,rgb(81, 255, 0),rgb(102, 255, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-`
-export const Text2 = styled.div`
-p{
-    background: linear-gradient(90deg,rgb(81, 255, 0),rgb(102, 255, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-`
-export const WrapperUl = styled.ul`
-  list-style: none;
-  padding-left: 0;
-  margin: 20px auto;
-  max-width: 600px;
-  
-  /* Фон для списку з легким затемненням */
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,255,0,0.2);
-  padding: 20px 30px;
+  text-align: center;
 
-  li {
-    position: relative;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 600;
-    color: transparent;
-
+  p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
     background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+  }
+`;
+
+export const Text2 = styled(Text1)``;
+
+export const WrapperUl = styled.ul`
+  list-style: none;
+  padding-left: 0;
+  margin: 20px auto;
+  max-width: 700px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+  padding: 20px 30px;
+
+  li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: transparent;
+    line-height: 1.5;
+    background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
     padding-left: 30px;
-    cursor: default;
 
-    /* Іконка-прапорець ліворуч */
     &::before {
-      content: "✓"; /* або можна вставити свій SVG через background-image */
+      content: "✓";
       position: absolute;
       left: 0;
       top: 0;
@@ -152,11 +171,8 @@ export const WrapperUl = styled.ul`
       font-weight: bold;
       font-size: 20px;
       line-height: 1.5;
-      user-select: none;
-      transition: color 0.3s ease;
     }
 
-    /* Hover ефект для li */
     &:hover {
       background: linear-gradient(90deg, #00ff6a, #00c851);
       -webkit-background-clip: text;
@@ -166,10 +182,26 @@ export const WrapperUl = styled.ul`
         color: #00ff6a;
       }
     }
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 `;
+
 export const Last = styled.div`
-background: linear-gradient(90deg, #00ff6a, #00c851);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-`
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+
+  p {
+    background: linear-gradient(90deg, #00ff6a, #00c851);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+  }
+`;

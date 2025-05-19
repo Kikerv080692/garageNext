@@ -7,7 +7,7 @@ export default function PhoneForm() {
     const {t} = useTranslation()
   const [phone, setPhone] = useState("");
   const [status, setStatus] = useState("");
-  const [isValid, setIsValid] = useState(null); // для відображення валідності
+  const [isValid, setIsValid] = useState(null); 
 
   const formatPhoneNumber = (value) => {
     const digits = value.replace(/\D/g, "");
@@ -104,7 +104,7 @@ export default function PhoneForm() {
           }}
         />
         {isValid === null ? (
-         <img src="/images/smile.png" alt="smile" /> // Поки не введено номер
+         <img src="/images/smile.png" alt="smile" /> 
         ) : isValid ? (
           <span style={{ color: "green" }}>✅</span> 
         ) : (
@@ -113,7 +113,10 @@ export default function PhoneForm() {
       </div>
       <SC.ButtonSend type="submit">{t('send')}</SC.ButtonSend>
       <span>{status}</span>
+      <SC.WrapperTextP>
       <p>{t('phoneText')}</p>
+
+      </SC.WrapperTextP>
     </SC.Form>
   );
 }
