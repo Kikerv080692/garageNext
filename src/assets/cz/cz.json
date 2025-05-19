@@ -94,7 +94,19 @@
     "electric": "Autoelektrika",
     "engin": "Motor",
     "gasSistem": "Výfukový systém"
+},
+"electricPage": {
+    "title": "Autoelektrika je systém elektronických komponentů vozidla, který zajišťuje chod motoru, osvětlení, bezpečnostních systémů, komfortu a dalších funkcí. Na správné funkci elektroinstalace závisí startování vozu, stabilní provoz elektrického vybavení a celková bezpečnost jízdy.",
+    "subtitle": "Včasná diagnostika autoelektriky umožňuje odhalit a odstranit závady v rané fázi, čímž se předchází nákladným opravám v budoucnu.",
+    "textTitle": "V servisu Auto Master provádějí kompletní spektrum prací na autoelektrice:",
+    "text1": "Diagnostika vozidla a hledání závad",
+    "text2": "Montáž doplňkového vybavení",
+    "text3": "Montáž couvací kamery",
+    "text4": "Montáž parkovacích senzorů",
+    "text5": "Oprava tempomatu",
+    "text6": "Chip tuning",
+    "text7": "Oprava alarmu",
+    "text8": "Instalace CarPlay"
 }
-
 
 }
