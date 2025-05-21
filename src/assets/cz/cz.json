@@ -129,7 +129,28 @@
     "title3Text5" : "Doporučení k provozu",
     "end": "Nabídka služeb naší společnosti se neomezuje pouze na výše uvedené práce. Naši specialisté vám vždy pomohou vybrat optimální spotřební materiál (olej, chladicí kapalinu atd.), který může výrazně prodloužit životnost motoru vašeho vozu."
 
+},
+"exhaustPage": {
+  "title": "Diagnostika a oprava výfukového systému",
+  "subtitle": "Výfukový systém ovlivňuje nejen hlučnost, ale i účinnost motoru a ekologičnost provozu. Odkládání servisu může vést k vážnému poškození.",
+  "subtitleText": "Zvýšila se hlučnost z výfuku nebo se objevil hučivý zvuk pod vozem.",
+  "subtitleText1": "Výfuk má ostrý zápach nebo změnil barvu (černý, modrý, bílý kouř).",
+  "subtitleText2": "Zaznamenali jste pokles výkonu motoru.",
+  "subtitleText3": "Cítíte zápach výfukových plynů v interiéru.",
+  "subtitleText4": "Únik ve spojích nebo propálený tlumič/rezonátor.",
+  "underSubTitle": "Pokud zaznamenáte některý z příznaků, navštivte náš autoservis. Včasná diagnostika vám ušetří náklady na rozsáhlé opravy.",
+  "title2": "Hlavní úkony na výfukovém systému",
+  "subtitle2": "Provádíme kompletní kontrolu a opravu výfukového systému s použitím kvalitních dílů.",
+  "title3": "Služby zahrnují:",
+  "title3Text": "Diagnostika těsnosti a stavu výfukového systému",
+  "title3Text1": "Výmena nebo oprava tlumiče, rezonátoru, trubek",
+  "title3Text2": "Kontrola a výměna těsnění, objímek, spojů",
+  "title3Text3": "Čištění nebo výměna katalyzátoru / filtru pevných částic",
+  "title3Text4": "Kontrola a oprava uchycení a závěsů",
+  "title3Text5": "Doporučení pro další provoz",
+  "end": "Pravidelný servis výfukového systému zajistí pohodlnou, bezpečnou a úspornou jízdu. Svěřte své auto profesionálům z Auto-Master."
 }
+
 
 
 }

@@ -51,8 +51,7 @@ export default function Brands() {
                 <SwiperSlide><Image src="/logos/32.png" width={80} height={80} alt="logo"/></SwiperSlide>
                 <SwiperSlide><Image src="/logos/15.png" width={80} height={80} alt="logo"/></SwiperSlide>
                 <SwiperSlide><Image src="/logos/22.png" width={80} height={80} alt="logo"/></SwiperSlide>
-                <SwiperSlide><Image src="/logos/22.png" width={80} height={80} alt="logo"/></SwiperSlide>
-                <SwiperSlide><Image src="/logos/22.png" width={80} height={80} alt="logo"/></SwiperSlide>
+                <SwiperSlide><Image src="/logos/1.png" width={80} height={80} alt="logo"/></SwiperSlide>
                 <SwiperSlide><Image src="/logos/33.png" width={80} height={80} alt="logo"/></SwiperSlide>
                 <SwiperSlide><Image src="/logos/16.png" width={80} height={80} alt="logo"/></SwiperSlide>
                 <SwiperSlide><Image src="/logos/17.png" width={80} height={80} alt="logo"/></SwiperSlide>
