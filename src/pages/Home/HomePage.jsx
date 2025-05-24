@@ -1,7 +1,7 @@
 "use client"
 import Brands from 'src@/components/Brands/Brands'
-import ServiceList from './components/ServiceList/ServiceList'
-import * as SC from './HomePages.styled'
+import ServiceList from '../../components/Styled/Home/components/ServiceList/ServiceList'
+import {Wrapper,Title,SubTitle,WrapperImage,Image, WrapperServiceList}  from '../../components/Styled/Home/HomePages.styled'
 import { useTranslation } from 'react-i18next'
 
 
@@ -14,21 +14,21 @@ export default function HomePage() {
 
     return (
         <>
-            <SC.Wrapper>
+            <Wrapper>
                 <div>
-                    <SC.Title>
+                    <Title>
                         <span className="gradient">{highlight1}</span> <span className='middle'>{middle}</span> <span className="gradient">{highlight2}</span>
-                    </SC.Title>
+                    </Title>
 
-                    <SC.SubTitle>{t('tittle2')}</SC.SubTitle>
+                    <SubTitle>{t('tittle2')}</SubTitle>
                 </div>
-                <SC.WrapperImage>
-                    <SC.Image src="/images/Garage.webp" alt="Garage" />
-                </SC.WrapperImage>
-            </SC.Wrapper>
-            <SC.WrapperServiceList>
+                <WrapperImage>
+                    <Image src="/images/Garage.webp" alt="Garage" />
+                </WrapperImage>
+            </Wrapper>
+            <WrapperServiceList>
                 <ServiceList />
-            </SC.WrapperServiceList>
+            </WrapperServiceList>
             <Brands />
         </>
 

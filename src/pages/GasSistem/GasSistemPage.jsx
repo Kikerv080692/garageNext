@@ -1,5 +1,5 @@
 "use client"
-import * as SC from './GasSistemPage.styled'
+import {WrapperGasSistemPage,Content, Content2, FooterText} from '../../components/Styled/GasSistem/GasSistemPage.styled'
 import { useTranslation } from 'react-i18next'
 
 
@@ -7,8 +7,8 @@ export default function GasSistem() {
  const { t } = useTranslation()
 
     return (
-        <SC.WrapperGasSistemPage>
-           <SC.Content>
+        <WrapperGasSistemPage>
+           <Content>
                    <h1>{t('exhaustPage.title')}</h1>
                    <h2>{t('exhaustPage.subtitle')}</h2>
                    <ul>
@@ -20,8 +20,8 @@ export default function GasSistem() {
                    </ul>
                    <p>{t('exhaustPage.underSubTitle')}</p>
                    <img src="/images/gasSistem.jpg"  alt="engine" />
-                 </SC.Content>
-                 <SC.Content2>
+                 </Content>
+                 <Content2>
                    <h1>{t('exhaustPage.title2')}</h1>
                    <p>{t('exhaustPage.subtitle2')}</p>
                    <h3>{t('exhaustPage.title3')}</h3>
@@ -34,10 +34,10 @@ export default function GasSistem() {
                      <li>{t('exhaustPage.title3Text5')}</li>
                    </ul>
                    <img src="/images/Corvette.jpg" alt="zazor" />
-                 </SC.Content2>
-                 <SC.FooterText>
+                 </Content2>
+                 <FooterText>
                    <p>{t('exhaustPage.end')}</p>
-                 </SC.FooterText>
-        </SC.WrapperGasSistemPage>
+                 </FooterText>
+        </WrapperGasSistemPage>
     );
 }

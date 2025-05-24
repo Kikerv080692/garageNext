@@ -1,4 +1,5 @@
 'use client'
+import { useEffect, useState } from "react";
 import BurgerButton from "./components/BurgerButton/BurgerButton";
 import Logo from "./components/Logo/Logo";
 import Navigation from "./components/Navigation/Navigation";
@@ -6,15 +7,28 @@ import SocialComponents from "./components/SocialComponents/SocialComponents";
 import Translate from "./components/Translate/Translate";
 import * as SC from './Header.styled'
 
-const width = window.innerWidth < 768
-
 export default function Header() {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <SC.HeaderWrapper>
             <SC.LogoWrapper>
                 <Logo />
             </SC.LogoWrapper>
-            {!width &&
+
+            {!isMobile &&
                 <SC.NavigationWrapper>
                     <Navigation />
                 </SC.NavigationWrapper>
@@ -24,10 +38,8 @@ export default function Header() {
                 <SocialComponents />
                 <Translate />
             </SC.SocialWrapper>
-            {
-                width && <BurgerButton />
-            }
 
+            {isMobile && <BurgerButton />}
         </SC.HeaderWrapper>
-    )
+    );
 }
