@@ -22,6 +22,7 @@ export const Title = styled.h1`
   font-size: 26px;
   background: linear-gradient(90deg, rgb(0, 255, 153), rgb(102, 255, 0));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   text-transform: uppercase;
@@ -35,6 +36,7 @@ export const Subtitle = styled.h2`
   font-size: 20px;
   background: linear-gradient(90deg, rgb(255, 204, 0), rgb(102, 255, 0));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 900px;
   line-height: 1.4;
@@ -59,6 +61,7 @@ export const WrapperTextTitle = styled.div`
     font-size: 20px;
     background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     max-width: 800px;
     margin: 0 auto;
@@ -85,6 +88,7 @@ export const WrapperUl = styled.ul`
     padding-left: 36px;
     background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     word-break: break-word;
 
@@ -100,6 +104,7 @@ export const WrapperUl = styled.ul`
     &:hover {
       background: linear-gradient(90deg, #00ff6a, #00c851);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
 
       &::before {

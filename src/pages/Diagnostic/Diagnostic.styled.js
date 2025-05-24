@@ -42,6 +42,7 @@ export const WrapperTittle = styled.div`
     word-break: break-word;
     background: linear-gradient(90deg, rgb(0, 255, 153), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
     @media (min-width: 768px) {
@@ -108,6 +109,7 @@ export const SubTitle = styled.div`
     margin: 0 auto;
     background: linear-gradient(90deg, rgb(255, 204, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
     @media (min-width: 768px) {
@@ -129,6 +131,7 @@ export const Text1 = styled.div`
     font-size: 16px;
     background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
     @media (min-width: 768px) {
@@ -158,6 +161,7 @@ export const WrapperUl = styled.ul`
     line-height: 1.5;
     background: linear-gradient(90deg, rgb(81, 255, 0), rgb(102, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
     padding-left: 30px;
@@ -176,6 +180,7 @@ export const WrapperUl = styled.ul`
     &:hover {
       background: linear-gradient(90deg, #00ff6a, #00c851);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
 
       &::before {
@@ -197,6 +202,7 @@ export const Last = styled.div`
   p {
     background: linear-gradient(90deg, #00ff6a, #00c851);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 16px;
 

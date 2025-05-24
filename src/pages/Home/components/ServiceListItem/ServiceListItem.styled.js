@@ -22,8 +22,11 @@ export const WrapperItem = styled.div`
     border-radius: 4px;
     background: linear-gradient(45deg, #00ff00,rgb(0, 119, 65));
     -webkit-mask:
-      linear-gradient(#fff 0 0) content-box,
-      linear-gradient(#fff 0 0);
+  linear-gradient(#fff 0 0) content-box,
+  linear-gradient(#fff 0 0);
+mask:
+  linear-gradient(#fff 0 0) content-box,
+  linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;
@@ -42,6 +45,7 @@ p {
   color: #1b5e20; 
   background: linear-gradient(to right, #2e7d32, #66bb6a);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   word-break: break-word;

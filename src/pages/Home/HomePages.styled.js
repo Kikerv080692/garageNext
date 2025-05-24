@@ -33,6 +33,7 @@ export const Title = styled.h1`
     background-size: 200%;
     background-position: 0%;
     -webkit-background-clip: text;
+     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     animation: shine 2.5s linear infinite;
@@ -48,6 +49,7 @@ export const Title = styled.h1`
     background-size: 200%;
     background-position: 0%;
     -webkit-background-clip: text;
+     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     animation: shine 3.5s linear infinite;
@@ -87,6 +89,7 @@ word-break: break-word;
 margin-bottom: 10px;
 background: linear-gradient(to top,rgb(255, 153, 0),rgb(57, 167, 2));
     -webkit-background-clip: text;
+     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block; 
 

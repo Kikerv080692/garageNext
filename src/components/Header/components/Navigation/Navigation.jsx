@@ -7,7 +7,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useTranslation } from 'react-i18next'
 
 
-export default function Navigation({ handleCloseMenu }) {
+export default function Navigation() {
     const {t} = useTranslation()
     const [isShowService, setIsShowService] = useState(false);
     const menuRef = useRef(null);
@@ -17,7 +17,7 @@ export default function Navigation({ handleCloseMenu }) {
     };
 
     const handleCloseClick = () => {
-        handleCloseMenu();
+        
         setIsShowService(false);
     };
 
