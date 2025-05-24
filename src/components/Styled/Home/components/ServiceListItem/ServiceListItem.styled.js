@@ -21,10 +21,17 @@ export const WrapperItem = styled.div`
     padding: 6px;
     border-radius: 4px;
     background: linear-gradient(45deg, #00ff00,rgb(0, 119, 65));
+<<<<<<< HEAD:src/components/Styled/Home/components/ServiceListItem/ServiceListItem.styled.js
     -webkit-mask:
   linear-gradient(#fff 0 0) content-box,
   linear-gradient(#fff 0 0);
 mask:
+=======
+   mask:
+  linear-gradient(#fff 0 0) content-box,
+  linear-gradient(#fff 0 0);
+-webkit-mask:
+>>>>>>> 49994ae (fix all bug):src/pages/Home/components/ServiceListItem/ServiceListItem.jsx
   linear-gradient(#fff 0 0) content-box,
   linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -45,7 +52,12 @@ p {
   color: #1b5e20; 
   background: linear-gradient(to right, #2e7d32, #66bb6a);
   -webkit-background-clip: text;
+<<<<<<< HEAD:src/components/Styled/Home/components/ServiceListItem/ServiceListItem.styled.js
   background-clip: text;
+=======
+    background-clip: text;
+
+>>>>>>> 49994ae (fix all bug):src/pages/Home/components/ServiceListItem/ServiceListItem.jsx
   -webkit-text-fill-color: transparent;
 
   word-break: break-word;
@@ -79,3 +91,27 @@ export const Icon = styled.div`
     transform: rotate(180deg);
   `}
 `;
+<<<<<<< HEAD:src/components/Styled/Home/components/ServiceListItem/ServiceListItem.styled.js
+=======
+
+
+export default function ServiceListItem({ children, title, img, handleClick, isOpen }) {
+    return (
+        <WrapperItem>
+            <Item onClick={handleClick}>
+                <WrapperIMGTitle>
+                    <div>
+                        <img src={img} alt="3" />
+                    </div>
+                    <h2>{title}</h2>
+                    <Icon $isopen={isOpen}>
+                        <FaChevronDown />
+                    </Icon>
+                </WrapperIMGTitle>
+                {isOpen && <p>{children}</p>}
+            </Item>
+        </WrapperItem>
+
+    )
+}
+>>>>>>> 49994ae (fix all bug):src/pages/Home/components/ServiceListItem/ServiceListItem.jsx
