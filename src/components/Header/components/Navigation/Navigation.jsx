@@ -1,7 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import MainNavigation from "src@/data/navigation.json";
 import Link from "next/link";
-import { FaViber } from "react-icons/fa";
 import ServiceNavigation from "../ServiceNavigation/ServiceNavigation";
 import * as SC from './Navigation.styled';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
@@ -22,7 +21,7 @@ export default function Navigation({ handleCloseMenu }) {
         setIsShowService(false);
     };
 
-    // Закриття при кліку поза меню
+    
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (menuRef.current && !menuRef.current.contains(event.target)) {

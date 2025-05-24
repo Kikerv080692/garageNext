@@ -30,16 +30,12 @@ export const WrapperItem = styled.div`
   }
 `;
 
-
-
 export const Item = styled.li`
 list-style: none;
 cursor: pointer;
 img{
 width: 80px;
 }
-
-
 p {
   font-size: 16px;
   line-height: 1.5;

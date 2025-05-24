@@ -14,14 +14,12 @@ export const WrapperContactPage = styled.div`
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 
-  /* Tablet */
   @media (min-width: 600px) {
     padding: 2rem;
     gap: 1.5rem;
     margin-top: 3rem;
   }
 
-  /* Laptop/Desktop */
   @media (min-width: 1024px) {
     max-width: 1200px;
     margin-inline: auto;

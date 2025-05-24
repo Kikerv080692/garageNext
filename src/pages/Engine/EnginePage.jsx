@@ -32,6 +32,7 @@ export default function EnginePage() {
           <li>{t('enginePage.title3Text3')}</li>
           <li>{t('enginePage.title3Text4')}</li>
           <li>{t('enginePage.title3Text5')}</li>
+          <li>{t('enginePage.title3Text6')}</li>
         </ul>
         <img src="/images/zazor.jpeg" alt="zazor" />
       </SC.Content2>

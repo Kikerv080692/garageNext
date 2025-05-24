@@ -20,7 +20,7 @@ export default function Brands() {
                 slidesPerView={2}
                 navigation={true}
                 pagination={{ clickable: true }}
-                // scrollbar= {{draggeble : true}}
+                
                 breakpoints={{
                     640: {
                         slidesPerView: 2,

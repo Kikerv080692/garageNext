@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-// Анімація хвилі
+
 const wavePulse = keyframes`
   0% {
     transform: translate(-50%, -50%) scale(1);

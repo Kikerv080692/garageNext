@@ -116,9 +116,6 @@ export const Image = styled.img`
 `;
 
 export const WrapperServiceList = styled.div`
-/* display: flex;
-flex-direction: column;
-justify-content: center; */
 border-radius: 6px;
 margin: 0 8px;
 margin-bottom: 30px;

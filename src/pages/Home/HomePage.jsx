@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next'
 
 export default function HomePage() {
     const { t } = useTranslation()
-    const tittle = t('tittle')
     const highlight1 = t('tittle.highlight1');
     const middle = t('tittle.middle');
     const highlight2 = t('tittle.highlight2');

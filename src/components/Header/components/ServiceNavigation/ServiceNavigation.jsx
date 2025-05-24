@@ -10,8 +10,8 @@ export default function ServiceNavigation({ handleShow }) {
     return (
         <>
             <SC.WrapperServiceNavigationList>
-                {ServiceNav.map(({ id, href, text, icon }) => <SC.ListItem onClick={handleShow} key={id} >
-                    <Link href={href}>
+                {ServiceNav.map(({ id, href, text, icon }) => <SC.ListItem  key={id} >
+                    <Link href={href} onClick={handleShow}>
                         <div style={{ display: "flex", alignItems: "center" }}><SC.Img fill="white" src={icon} alt={text} />{t(text)}
                         </div>
                     </Link>
