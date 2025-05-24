@@ -1,9 +1,6 @@
 "use client"
 import {WrapperElectricPage,Title ,Subtitle, Image, WrapperTextTitle, WrapperUl}  from '../../components/Styled/Electric/ElectricPage.styled'
 import { useTranslation } from 'react-i18next'
-
-<<<<<<< HEAD
-=======
 export const WrapperElectricPage = styled.div`
   display: flex;
   flex-direction: column;
@@ -120,7 +117,6 @@ export const WrapperUl = styled.ul`
     }
   }
 `;
->>>>>>> 49994ae (fix all bug)
 
 export default function ElectricPage() {
   const { t } = useTranslation()

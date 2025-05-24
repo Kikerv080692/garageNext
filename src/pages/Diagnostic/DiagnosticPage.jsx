@@ -1,8 +1,6 @@
 "use client";
 import {WrapperDiagnosticPage, WrapperTittle, WrapperIMG, LogoWaveWrapper,SubTitle,Text1,Text2, WrapperUl,Last} from '../../components/Styled/Diagnostic/Diagnostic.styled';
 import { useTranslation } from 'react-i18next';
-<<<<<<< HEAD
-=======
 import styled, { keyframes } from "styled-components";
 
 
@@ -220,7 +218,7 @@ export const Last = styled.div`
     }
   }
 `;
->>>>>>> 49994ae (fix all bug)
+
 
 export default function DiagnosticPage() {
   const { t } = useTranslation();
