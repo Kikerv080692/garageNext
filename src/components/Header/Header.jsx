@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useEffect, useState } from "react";
 import BurgerButton from "./components/BurgerButton/BurgerButton";
 import Logo from "./components/Logo/Logo";

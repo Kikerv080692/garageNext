@@ -1,3 +1,4 @@
+"use client"
 import { useRef, useEffect, useState } from "react";
 import MainNavigation from "src@/data/navigation.json";
 import Link from "next/link";

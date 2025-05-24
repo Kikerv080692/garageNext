@@ -1,7 +1,6 @@
 "use client"
 import Brands from 'src@/components/Brands/Brands'
 import ServiceList from '../../components/Styled/Home/components/ServiceList/ServiceList'
-import {Wrapper,Title,SubTitle,WrapperImage,Image, WrapperServiceList}  from '../../components/Styled/Home/HomePages.styled'
 import { useTranslation } from 'react-i18next'
 import styled from "styled-components";
 
@@ -147,7 +146,6 @@ export default function HomePage() {
                     <Title>
                         <span className="gradient">{highlight1}</span> <span className='middle'>{middle}</span> <span className="gradient">{highlight2}</span>
                     </Title>
-
                     <SubTitle>{t('tittle2')}</SubTitle>
                 </div>
                 <WrapperImage>

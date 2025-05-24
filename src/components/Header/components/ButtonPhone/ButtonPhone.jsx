@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef, useState } from "react";
 import PhoneForm from "../PhoneForm/PhoneForm";
 import * as SC from "./ButtonPhone.styled";

@@ -1,6 +1,6 @@
 "use client"
-import {WrapperElectricPage,Title ,Subtitle, Image, WrapperTextTitle, WrapperUl}  from '../../components/Styled/Electric/ElectricPage.styled'
 import { useTranslation } from 'react-i18next'
+import styled from "styled-components";
 export const WrapperElectricPage = styled.div`
   display: flex;
   flex-direction: column;

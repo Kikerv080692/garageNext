@@ -1,5 +1,4 @@
 "use client";
-import {WrapperDiagnosticPage, WrapperTittle, WrapperIMG, LogoWaveWrapper,SubTitle,Text1,Text2, WrapperUl,Last} from '../../components/Styled/Diagnostic/Diagnostic.styled';
 import { useTranslation } from 'react-i18next';
 import styled, { keyframes } from "styled-components";
 

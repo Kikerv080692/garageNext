@@ -1,3 +1,4 @@
+"use client"
 import { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import * as SC from './Translate.styled';

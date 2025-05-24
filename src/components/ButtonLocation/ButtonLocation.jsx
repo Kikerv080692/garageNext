@@ -1,3 +1,4 @@
+"use client"
 import * as SC from './ButtonLocation.styled'
 
 export default function ButtonLocation() {
